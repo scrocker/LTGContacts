@@ -2,27 +2,71 @@
 <database>
     <element label="LTG Contracts Table" max_length="40" name="x_latg_ltg_contrac_ltg_contracts_table" type="collection">
         <element label="Approval history" max_length="4000" name="approval_history" type="journal"/>
+        <element label="Approver" max_length="32" name="approver" reference="sys_user" type="reference"/>
+        <element label="Automatic" max_length="40" name="automatic" type="boolean"/>
+        <element label="Commitment Amount" max_length="20" name="commitment_amount" type="price"/>
         <element label="Commodity" max_length="40" name="commodity" type="string"/>
+        <element label="Contract End Date" max_length="40" name="contract_end_date" type="glide_date"/>
         <element label="Contract Name" max_length="100" name="contract_name" type="string"/>
+        <element label="Contract Start Date" max_length="40" name="contract_start_date" type="glide_date"/>
         <element label="Counter Party" max_length="40" name="counter_party" type="string"/>
+        <element label="Exclusive LTG Option to Renew" max_length="40" name="exclusive_ltg_option_to_renew" type="boolean"/>
+        <element label="Lansing Storage" max_length="40" name="lansing_storage" type="string"/>
+        <element choice="1" label="License" max_length="10" name="license" type="string">
+            <choice>
+                <element label="State" value="state"/>
+                <element label="USDA" value="usda"/>
+            </choice>
+        </element>
+        <element label="Licensed by" max_length="100" name="licensed_by" type="string"/>
         <element label="Loc" max_length="32" name="loc" reference="cmn_location" type="reference"/>
+        <element label="Notice Required Renew" max_length="40" name="notice_required_renew" type="glide_date"/>
+        <element label="Notice required to terminate" max_length="40" name="notice_required_to_terminate" type="string"/>
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element choice="1" label="Payment schedule" max_length="40" name="payment_schedule" type="choice">
+            <choice>
+                <element label="Daily" sequence="10" value="daily"/>
+                <element label="Weekly" sequence="20" value="weekly"/>
+                <element label="Every 2 Weeks" sequence="30" value="weekly2"/>
+                <element label="Monthly" sequence="40" value="monthly"/>
+                <element label="Every 2 Months" sequence="50" value="monthly2"/>
+                <element label="Quarterly" sequence="60" value="quarterly"/>
+                <element label="Semi-Annually" sequence="70" value="semi-annually"/>
+                <element label="Annually" sequence="80" value="annual"/>
+            </choice>
+        </element>
+        <element label="Payment terms" max_length="100" name="payment_terms" type="string"/>
+        <element label="Rail car receiving" max_length="40" name="rail_car_receiving" type="string"/>
+        <element label="Rate" max_length="100" name="rate" type="string"/>
+        <element label="Renewal Begin Date" max_length="40" name="renewal_begin_date" type="glide_date"/>
+        <element label="Renewal Date End" max_length="40" name="renewal_date_end" type="glide_date"/>
+        <element label="Renewal Price" max_length="20" name="renewal_price" type="price"/>
+        <element label="Renew notice to" max_length="32" name="renew_notice_to" reference="sys_user" type="reference"/>
+        <element label="Service Obligation" max_length="100" name="service_obligation" type="string"/>
         <element label="Short Description" max_length="100" name="short_description" type="string"/>
         <element choice="3" label="State of Contract" max_length="50" name="state_of_contract" type="string">
             <choice/>
         </element>
+        <element label="Storage Rage" max_length="40" name="storage_rage" type="string"/>
         <element choice="3" label="Take or Pay" max_length="40" name="take_or_pay" type="string">
             <choice>
                 <element label="Take or Pay" sequence="100" value="take_or_pay"/>
                 <element label="No Volumn Commitment" sequence="150" value="no_volumn_commitment"/>
             </choice>
         </element>
+        <element label="Throughput capacity" max_length="40" name="throughput_capacity" type="string"/>
         <element label="Trader project lead" max_length="32" name="trader_project_lead" reference="sys_user" type="reference"/>
         <element attributes="edge_encryption_enabled=true" label="Contract Number" max_length="40" name="u_contract_number" type="string"/>
         <index name="index">
-            <element name="loc"/>
+            <element name="approver"/>
         </index>
         <index name="index2">
+            <element name="loc"/>
+        </index>
+        <index name="index3">
+            <element name="renew_notice_to"/>
+        </index>
+        <index name="index4">
             <element name="trader_project_lead"/>
         </index>
     </element>
