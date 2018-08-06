@@ -1,6 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
     <element label="LTG Contracts Table" max_length="40" name="x_latg_ltg_contrac_ltg_contracts_table" type="collection">
+        <element label="Approval history" max_length="4000" name="approval_history" type="journal"/>
+        <element label="Commodity" max_length="40" name="commodity" type="string"/>
+        <element label="Contract Name" max_length="100" name="contract_name" type="string"/>
+        <element label="Counter Party" max_length="40" name="counter_party" type="string"/>
+        <element label="Loc" max_length="32" name="loc" reference="cmn_location" type="reference"/>
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Short Description" max_length="100" name="short_description" type="string"/>
+        <element choice="3" label="State of Contract" max_length="50" name="state_of_contract" type="string">
+            <choice/>
+        </element>
+        <element choice="3" label="Take or Pay" max_length="40" name="take_or_pay" type="string">
+            <choice>
+                <element label="Take or Pay" sequence="100" value="take_or_pay"/>
+                <element label="No Volumn Commitment" sequence="150" value="no_volumn_commitment"/>
+            </choice>
+        </element>
+        <element label="Trader project lead" max_length="32" name="trader_project_lead" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Contract Number" max_length="40" name="u_contract_number" type="string"/>
+        <index name="index">
+            <element name="loc"/>
+        </index>
+        <index name="index2">
+            <element name="trader_project_lead"/>
+        </index>
     </element>
 </database>
