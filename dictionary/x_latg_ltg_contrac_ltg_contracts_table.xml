@@ -19,10 +19,11 @@
             </choice>
         </element>
         <element label="Licensed by" max_length="100" name="licensed_by" type="string"/>
-        <element label="Loc" max_length="32" name="loc" reference="cmn_location" type="reference"/>
+        <element label="Loc" max_length="32" name="loc" reference="cmn_department" type="reference"/>
         <element label="Notice Required Renew" max_length="40" name="notice_required_renew" type="glide_date"/>
         <element label="Notice required to terminate" max_length="40" name="notice_required_to_terminate" type="string"/>
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Other Charges" max_length="100" name="other_charges" type="string"/>
         <element choice="1" label="Payment schedule" max_length="40" name="payment_schedule" type="choice">
             <choice>
                 <element label="Daily" sequence="10" value="daily"/>
@@ -47,7 +48,7 @@
         <element choice="3" label="State of Contract" max_length="50" name="state_of_contract" type="string">
             <choice/>
         </element>
-        <element label="Storage Rage" max_length="40" name="storage_rage" type="string"/>
+        <element label="Storage Rate" max_length="100" name="storage_rate" type="string"/>
         <element choice="3" label="Take or Pay" max_length="40" name="take_or_pay" type="string">
             <choice>
                 <element label="Take or Pay" sequence="100" value="take_or_pay"/>
