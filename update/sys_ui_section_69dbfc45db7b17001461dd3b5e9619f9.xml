@@ -169,6 +169,62 @@
             <sys_user/>
             <type/>
         </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>modes</element>
+            <position>12</position>
+            <sys_created_by>scrocker</sys_created_by>
+            <sys_created_on>2018-08-07 15:59:52</sys_created_on>
+            <sys_id>7c8f4e59db7757001461dd3b5e9619bb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_latg_ltg_contrac_ltg_contracts_table" sys_domain="global" view="Default view">69dbfc45db7b17001461dd3b5e9619f9</sys_ui_section>
+            <sys_updated_by>scrocker</sys_updated_by>
+            <sys_updated_on>2018-08-07 15:59:52</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>renew_rate</element>
+            <position>13</position>
+            <sys_created_by>scrocker</sys_created_by>
+            <sys_created_on>2018-08-07 16:01:31</sys_created_on>
+            <sys_id>41ef4e59db7757001461dd3b5e96194a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_latg_ltg_contrac_ltg_contracts_table" sys_domain="global" view="Default view">69dbfc45db7b17001461dd3b5e9619f9</sys_ui_section>
+            <sys_updated_by>scrocker</sys_updated_by>
+            <sys_updated_on>2018-08-07 16:01:31</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>renew_storage_rate</element>
+            <position>14</position>
+            <sys_created_by>scrocker</sys_created_by>
+            <sys_created_on>2018-08-07 16:01:52</sys_created_on>
+            <sys_id>82ffc699db7757001461dd3b5e961939</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_latg_ltg_contrac_ltg_contracts_table" sys_domain="global" view="Default view">69dbfc45db7b17001461dd3b5e9619f9</sys_ui_section>
+            <sys_updated_by>scrocker</sys_updated_by>
+            <sys_updated_on>2018-08-07 16:01:52</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>renew_other_charges</element>
+            <position>15</position>
+            <sys_created_by>scrocker</sys_created_by>
+            <sys_created_on>2018-08-07 16:02:13</sys_created_on>
+            <sys_id>9700d699db7757001461dd3b5e961994</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_latg_ltg_contrac_ltg_contracts_table" sys_domain="global" view="Default view">69dbfc45db7b17001461dd3b5e9619f9</sys_ui_section>
+            <sys_updated_by>scrocker</sys_updated_by>
+            <sys_updated_on>2018-08-07 16:02:13</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
         <sys_ui_section action="INSERT_OR_UPDATE">
             <caption/>
             <header>false</header>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="rail_car_receiving" table="x_latg_ltg_contrac_ltg_contracts_table">
+    <sys_dictionary action="INSERT_OR_UPDATE" element="renew_rate" table="x_latg_ltg_contrac_ltg_contracts_table">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
@@ -15,7 +15,7 @@
         <choice/>
         <choice_field/>
         <choice_table/>
-        <column_label>Rail car receiving</column_label>
+        <column_label>Renew Rate</column_label>
         <comments/>
         <create_roles/>
         <default_value/>
@@ -28,14 +28,14 @@
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>rail_car_receiving</element>
+        <element>renew_rate</element>
         <element_reference>false</element_reference>
         <foreign_database/>
         <function_definition/>
         <function_field>false</function_field>
         <internal_type display_value="String">string</internal_type>
         <mandatory>false</mandatory>
-        <max_length>40</max_length>
+        <max_length>20</max_length>
         <name>x_latg_ltg_contrac_ltg_contracts_table</name>
         <next_element/>
         <primary>false</primary>
@@ -53,16 +53,16 @@
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>scrocker</sys_created_by>
-        <sys_created_on>2018-08-06 15:29:26</sys_created_on>
-        <sys_id>68ee3c0ddb7b17001461dd3b5e961935</sys_id>
+        <sys_created_on>2018-08-07 16:01:31</sys_created_on>
+        <sys_id>f2cf8299db7757001461dd3b5e961939</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Rail car receiving</sys_name>
+        <sys_name>Renew Rate</sys_name>
         <sys_package display_value="LTG Contracts" source="x_latg_ltg_contrac">244a7805db7b17001461dd3b5e9619e3</sys_package>
         <sys_policy/>
         <sys_scope display_value="LTG Contracts">244a7805db7b17001461dd3b5e9619e3</sys_scope>
-        <sys_update_name>sys_dictionary_x_latg_ltg_contrac_ltg_contracts_table_rail_car_receiving</sys_update_name>
+        <sys_update_name>sys_dictionary_x_latg_ltg_contrac_ltg_contracts_table_renew_rate</sys_update_name>
         <sys_updated_by>scrocker</sys_updated_by>
-        <sys_updated_on>2018-08-06 15:29:26</sys_updated_on>
+        <sys_updated_on>2018-08-07 16:01:31</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
