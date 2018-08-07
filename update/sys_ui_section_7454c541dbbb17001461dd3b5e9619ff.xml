@@ -5,139 +5,153 @@
             <element>automatic</element>
             <position>0</position>
             <sys_created_by>scrocker</sys_created_by>
-            <sys_created_on>2018-08-06 15:57:14</sys_created_on>
-            <sys_id>e8558dc1dbbb17001461dd3b5e9619f7</sys_id>
+            <sys_created_on>2018-08-07 15:53:11</sys_created_on>
+            <sys_id>4ffdce19db7757001461dd3b5e961960</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Renewal Extension" display_value="Renewal Extension" name="x_latg_ltg_contrac_ltg_contracts_table" sys_domain="global" view="Default view">7454c541dbbb17001461dd3b5e9619ff</sys_ui_section>
             <sys_updated_by>scrocker</sys_updated_by>
-            <sys_updated_on>2018-08-06 15:57:14</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>renewal_begin_date</element>
-            <position>1</position>
-            <sys_created_by>scrocker</sys_created_by>
-            <sys_created_on>2018-08-06 15:57:14</sys_created_on>
-            <sys_id>6c558dc1dbbb17001461dd3b5e9619f7</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="Renewal Extension" display_value="Renewal Extension" name="x_latg_ltg_contrac_ltg_contracts_table" sys_domain="global" view="Default view">7454c541dbbb17001461dd3b5e9619ff</sys_ui_section>
-            <sys_updated_by>scrocker</sys_updated_by>
-            <sys_updated_on>2018-08-06 15:57:14</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>renewal_date_end</element>
-            <position>2</position>
-            <sys_created_by>scrocker</sys_created_by>
-            <sys_created_on>2018-08-06 15:57:14</sys_created_on>
-            <sys_id>ec558dc1dbbb17001461dd3b5e9619f7</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="Renewal Extension" display_value="Renewal Extension" name="x_latg_ltg_contrac_ltg_contracts_table" sys_domain="global" view="Default view">7454c541dbbb17001461dd3b5e9619ff</sys_ui_section>
-            <sys_updated_by>scrocker</sys_updated_by>
-            <sys_updated_on>2018-08-06 15:57:14</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>notice_required_renew</element>
-            <position>3</position>
-            <sys_created_by>scrocker</sys_created_by>
-            <sys_created_on>2018-08-06 15:57:14</sys_created_on>
-            <sys_id>60558dc1dbbb17001461dd3b5e9619f8</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="Renewal Extension" display_value="Renewal Extension" name="x_latg_ltg_contrac_ltg_contracts_table" sys_domain="global" view="Default view">7454c541dbbb17001461dd3b5e9619ff</sys_ui_section>
-            <sys_updated_by>scrocker</sys_updated_by>
-            <sys_updated_on>2018-08-06 15:57:14</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>notice_required_to_terminate</element>
-            <position>4</position>
-            <sys_created_by>scrocker</sys_created_by>
-            <sys_created_on>2018-08-06 15:57:14</sys_created_on>
-            <sys_id>e0558dc1dbbb17001461dd3b5e9619f8</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="Renewal Extension" display_value="Renewal Extension" name="x_latg_ltg_contrac_ltg_contracts_table" sys_domain="global" view="Default view">7454c541dbbb17001461dd3b5e9619ff</sys_ui_section>
-            <sys_updated_by>scrocker</sys_updated_by>
-            <sys_updated_on>2018-08-06 15:57:14</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>.split</element>
-            <position>5</position>
-            <sys_created_by>scrocker</sys_created_by>
-            <sys_created_on>2018-08-06 15:57:14</sys_created_on>
-            <sys_id>64558dc1dbbb17001461dd3b5e9619f8</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="Renewal Extension" display_value="Renewal Extension" name="x_latg_ltg_contrac_ltg_contracts_table" sys_domain="global" view="Default view">7454c541dbbb17001461dd3b5e9619ff</sys_ui_section>
-            <sys_updated_by>scrocker</sys_updated_by>
-            <sys_updated_on>2018-08-06 15:57:14</sys_updated_on>
-            <sys_user/>
-            <type>.split</type>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>renew_notice_to</element>
-            <position>6</position>
-            <sys_created_by>scrocker</sys_created_by>
-            <sys_created_on>2018-08-06 15:57:14</sys_created_on>
-            <sys_id>e4558dc1dbbb17001461dd3b5e9619f8</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="Renewal Extension" display_value="Renewal Extension" name="x_latg_ltg_contrac_ltg_contracts_table" sys_domain="global" view="Default view">7454c541dbbb17001461dd3b5e9619ff</sys_ui_section>
-            <sys_updated_by>scrocker</sys_updated_by>
-            <sys_updated_on>2018-08-06 15:57:14</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>renewal_price</element>
-            <position>7</position>
-            <sys_created_by>scrocker</sys_created_by>
-            <sys_created_on>2018-08-06 15:57:14</sys_created_on>
-            <sys_id>68558dc1dbbb17001461dd3b5e9619f8</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="Renewal Extension" display_value="Renewal Extension" name="x_latg_ltg_contrac_ltg_contracts_table" sys_domain="global" view="Default view">7454c541dbbb17001461dd3b5e9619ff</sys_ui_section>
-            <sys_updated_by>scrocker</sys_updated_by>
-            <sys_updated_on>2018-08-06 15:57:14</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>commitment_amount</element>
-            <position>8</position>
-            <sys_created_by>scrocker</sys_created_by>
-            <sys_created_on>2018-08-06 15:57:14</sys_created_on>
-            <sys_id>e8558dc1dbbb17001461dd3b5e9619f8</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="Renewal Extension" display_value="Renewal Extension" name="x_latg_ltg_contrac_ltg_contracts_table" sys_domain="global" view="Default view">7454c541dbbb17001461dd3b5e9619ff</sys_ui_section>
-            <sys_updated_by>scrocker</sys_updated_by>
-            <sys_updated_on>2018-08-06 15:57:14</sys_updated_on>
+            <sys_updated_on>2018-08-07 15:53:11</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>exclusive_ltg_option_to_renew</element>
-            <position>9</position>
+            <position>1</position>
             <sys_created_by>scrocker</sys_created_by>
-            <sys_created_on>2018-08-06 15:57:14</sys_created_on>
-            <sys_id>6c558dc1dbbb17001461dd3b5e9619f8</sys_id>
+            <sys_created_on>2018-08-07 15:53:11</sys_created_on>
+            <sys_id>cffdce19db7757001461dd3b5e961960</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Renewal Extension" display_value="Renewal Extension" name="x_latg_ltg_contrac_ltg_contracts_table" sys_domain="global" view="Default view">7454c541dbbb17001461dd3b5e9619ff</sys_ui_section>
             <sys_updated_by>scrocker</sys_updated_by>
-            <sys_updated_on>2018-08-06 15:57:14</sys_updated_on>
+            <sys_updated_on>2018-08-07 15:53:11</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>renewal_begin_date</element>
+            <position>2</position>
+            <sys_created_by>scrocker</sys_created_by>
+            <sys_created_on>2018-08-07 15:53:11</sys_created_on>
+            <sys_id>43fdce19db7757001461dd3b5e961961</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Renewal Extension" display_value="Renewal Extension" name="x_latg_ltg_contrac_ltg_contracts_table" sys_domain="global" view="Default view">7454c541dbbb17001461dd3b5e9619ff</sys_ui_section>
+            <sys_updated_by>scrocker</sys_updated_by>
+            <sys_updated_on>2018-08-07 15:53:11</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>renewal_date_end</element>
+            <position>3</position>
+            <sys_created_by>scrocker</sys_created_by>
+            <sys_created_on>2018-08-07 15:53:11</sys_created_on>
+            <sys_id>c3fdce19db7757001461dd3b5e961961</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Renewal Extension" display_value="Renewal Extension" name="x_latg_ltg_contrac_ltg_contracts_table" sys_domain="global" view="Default view">7454c541dbbb17001461dd3b5e9619ff</sys_ui_section>
+            <sys_updated_by>scrocker</sys_updated_by>
+            <sys_updated_on>2018-08-07 15:53:11</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>notice_required_renew</element>
+            <position>4</position>
+            <sys_created_by>scrocker</sys_created_by>
+            <sys_created_on>2018-08-07 15:53:11</sys_created_on>
+            <sys_id>47fdce19db7757001461dd3b5e961961</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Renewal Extension" display_value="Renewal Extension" name="x_latg_ltg_contrac_ltg_contracts_table" sys_domain="global" view="Default view">7454c541dbbb17001461dd3b5e9619ff</sys_ui_section>
+            <sys_updated_by>scrocker</sys_updated_by>
+            <sys_updated_on>2018-08-07 15:53:11</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>notice_required_to_terminate</element>
+            <position>5</position>
+            <sys_created_by>scrocker</sys_created_by>
+            <sys_created_on>2018-08-07 15:53:11</sys_created_on>
+            <sys_id>c7fdce19db7757001461dd3b5e961961</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Renewal Extension" display_value="Renewal Extension" name="x_latg_ltg_contrac_ltg_contracts_table" sys_domain="global" view="Default view">7454c541dbbb17001461dd3b5e9619ff</sys_ui_section>
+            <sys_updated_by>scrocker</sys_updated_by>
+            <sys_updated_on>2018-08-07 15:53:11</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>6</position>
+            <sys_created_by>scrocker</sys_created_by>
+            <sys_created_on>2018-08-07 15:53:11</sys_created_on>
+            <sys_id>4bfdce19db7757001461dd3b5e961961</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Renewal Extension" display_value="Renewal Extension" name="x_latg_ltg_contrac_ltg_contracts_table" sys_domain="global" view="Default view">7454c541dbbb17001461dd3b5e9619ff</sys_ui_section>
+            <sys_updated_by>scrocker</sys_updated_by>
+            <sys_updated_on>2018-08-07 15:53:11</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>renew_notice_to</element>
+            <position>7</position>
+            <sys_created_by>scrocker</sys_created_by>
+            <sys_created_on>2018-08-07 15:53:11</sys_created_on>
+            <sys_id>cbfdce19db7757001461dd3b5e961961</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Renewal Extension" display_value="Renewal Extension" name="x_latg_ltg_contrac_ltg_contracts_table" sys_domain="global" view="Default view">7454c541dbbb17001461dd3b5e9619ff</sys_ui_section>
+            <sys_updated_by>scrocker</sys_updated_by>
+            <sys_updated_on>2018-08-07 15:53:11</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>take_or_pay_renewal</element>
+            <position>8</position>
+            <sys_created_by>scrocker</sys_created_by>
+            <sys_created_on>2018-08-07 15:53:11</sys_created_on>
+            <sys_id>4ffdce19db7757001461dd3b5e961961</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Renewal Extension" display_value="Renewal Extension" name="x_latg_ltg_contrac_ltg_contracts_table" sys_domain="global" view="Default view">7454c541dbbb17001461dd3b5e9619ff</sys_ui_section>
+            <sys_updated_by>scrocker</sys_updated_by>
+            <sys_updated_on>2018-08-07 15:53:11</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>renewal_commitment_amount</element>
+            <position>9</position>
+            <sys_created_by>scrocker</sys_created_by>
+            <sys_created_on>2018-08-07 15:53:11</sys_created_on>
+            <sys_id>cffdce19db7757001461dd3b5e961961</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Renewal Extension" display_value="Renewal Extension" name="x_latg_ltg_contrac_ltg_contracts_table" sys_domain="global" view="Default view">7454c541dbbb17001461dd3b5e9619ff</sys_ui_section>
+            <sys_updated_by>scrocker</sys_updated_by>
+            <sys_updated_on>2018-08-07 15:53:11</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>renewal_price</element>
+            <position>10</position>
+            <sys_created_by>scrocker</sys_created_by>
+            <sys_created_on>2018-08-07 15:53:11</sys_created_on>
+            <sys_id>43fdce19db7757001461dd3b5e961962</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Renewal Extension" display_value="Renewal Extension" name="x_latg_ltg_contrac_ltg_contracts_table" sys_domain="global" view="Default view">7454c541dbbb17001461dd3b5e9619ff</sys_ui_section>
+            <sys_updated_by>scrocker</sys_updated_by>
+            <sys_updated_on>2018-08-07 15:53:11</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

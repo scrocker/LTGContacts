@@ -12,7 +12,7 @@
 	return '';  // return the calculated value
 
 })(current);]]></calculation>
-        <choice>3</choice>
+        <choice/>
         <choice_field/>
         <choice_table/>
         <column_label>Take or Pay</column_label>
@@ -33,7 +33,7 @@
         <foreign_database/>
         <function_definition/>
         <function_field>false</function_field>
-        <internal_type display_value="String">string</internal_type>
+        <internal_type display_value="">boolean</internal_type>
         <mandatory>false</mandatory>
         <max_length>40</max_length>
         <name>x_latg_ltg_contrac_ltg_contracts_table</name>
@@ -53,8 +53,8 @@
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>scrocker</sys_created_by>
-        <sys_created_on>2018-08-06 15:19:12</sys_created_on>
-        <sys_id>f56c34c5db7b17001461dd3b5e9619bc</sys_id>
+        <sys_created_on>2018-08-07 15:40:51</sys_created_on>
+        <sys_id>031b4e95db7757001461dd3b5e9619ec</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Take or Pay</sys_name>
         <sys_package display_value="LTG Contracts" source="x_latg_ltg_contrac">244a7805db7b17001461dd3b5e9619e3</sys_package>
@@ -62,7 +62,7 @@
         <sys_scope display_value="LTG Contracts">244a7805db7b17001461dd3b5e9619e3</sys_scope>
         <sys_update_name>sys_dictionary_x_latg_ltg_contrac_ltg_contracts_table_take_or_pay</sys_update_name>
         <sys_updated_by>scrocker</sys_updated_by>
-        <sys_updated_on>2018-08-06 15:19:12</sys_updated_on>
+        <sys_updated_on>2018-08-07 15:40:51</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

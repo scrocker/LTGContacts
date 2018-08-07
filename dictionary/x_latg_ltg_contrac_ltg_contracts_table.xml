@@ -5,7 +5,20 @@
         <element label="Approver" max_length="32" name="approver" reference="sys_user" type="reference"/>
         <element label="Automatic" max_length="40" name="automatic" type="boolean"/>
         <element label="Commitment Amount" max_length="20" name="commitment_amount" type="price"/>
-        <element label="Commodity" max_length="40" name="commodity" type="string"/>
+        <element choice="1" label="Commodity" max_length="40" name="commodity" type="string">
+            <choice>
+                <element label="Canola meal" value="canola meal"/>
+                <element label="Corn" value="corn"/>
+                <element label="Cotton Seed" value="cotton seed"/>
+                <element label="DDGS" value="ddgs"/>
+                <element label="Feed Ingredients" value="feed ingredients"/>
+                <element label="Grains" value="grains"/>
+                <element label="Milo" value="milo"/>
+                <element label="Soybean Meal" value="soybean meal"/>
+                <element label="Soybeans" value="soybeans"/>
+                <element label="Wheat" value="wheat"/>
+            </choice>
+        </element>
         <element label="Contract End Date" max_length="40" name="contract_end_date" type="glide_date"/>
         <element label="Contract Name" max_length="100" name="contract_name" type="string"/>
         <element label="Contract Start Date" max_length="40" name="contract_start_date" type="glide_date"/>
@@ -40,6 +53,7 @@
         <element label="Rail car receiving" max_length="40" name="rail_car_receiving" type="string"/>
         <element label="Rate" max_length="100" name="rate" type="string"/>
         <element label="Renewal Begin Date" max_length="40" name="renewal_begin_date" type="glide_date"/>
+        <element label="Renewal Commitment Amount" max_length="20" name="renewal_commitment_amount" type="price"/>
         <element label="Renewal Date End" max_length="40" name="renewal_date_end" type="glide_date"/>
         <element label="Renewal Price" max_length="20" name="renewal_price" type="price"/>
         <element label="Renew notice to" max_length="32" name="renew_notice_to" reference="sys_user" type="reference"/>
@@ -49,12 +63,8 @@
             <choice/>
         </element>
         <element label="Storage Rate" max_length="100" name="storage_rate" type="string"/>
-        <element choice="3" label="Take or Pay" max_length="40" name="take_or_pay" type="string">
-            <choice>
-                <element label="Take or Pay" sequence="100" value="take_or_pay"/>
-                <element label="No Volumn Commitment" sequence="150" value="no_volumn_commitment"/>
-            </choice>
-        </element>
+        <element label="Take or Pay" max_length="40" name="take_or_pay" type="boolean"/>
+        <element label="Take or Pay renewal" max_length="40" name="take_or_pay_renewal" type="boolean"/>
         <element label="Throughput capacity" max_length="40" name="throughput_capacity" type="string"/>
         <element label="Trader project lead" max_length="32" name="trader_project_lead" reference="sys_user" type="reference"/>
         <element attributes="edge_encryption_enabled=true" label="Contract Number" max_length="40" name="u_contract_number" type="string"/>

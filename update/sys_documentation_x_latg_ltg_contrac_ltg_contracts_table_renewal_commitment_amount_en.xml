@@ -1,26 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record_update>
-    <sys_documentation element="take_or_pay" label="Take or Pay" language="en" table="x_latg_ltg_contrac_ltg_contracts_table">
+    <sys_documentation element="renewal_commitment_amount" label="Renewal Commitment Amount" language="en" table="x_latg_ltg_contrac_ltg_contracts_table">
         <sys_documentation action="INSERT_OR_UPDATE">
-            <element>take_or_pay</element>
+            <element>renewal_commitment_amount</element>
             <help/>
             <hint/>
-            <label>Take or Pay</label>
+            <label>Renewal Commitment Amount</label>
             <language>en</language>
             <name>x_latg_ltg_contrac_ltg_contracts_table</name>
-            <plural>Take or Pays</plural>
+            <plural>Renewal Commitment Amounts</plural>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>scrocker</sys_created_by>
-            <sys_created_on>2018-08-07 15:40:52</sys_created_on>
-            <sys_id>5e2b8e95db7757001461dd3b5e96196e</sys_id>
+            <sys_created_on>2018-08-07 15:51:44</sys_created_on>
+            <sys_id>2dadca19db7757001461dd3b5e9619d7</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_name>Take or Pay</sys_name>
+            <sys_name>Renewal Commitment Amount</sys_name>
             <sys_package display_value="LTG Contracts" source="x_latg_ltg_contrac">244a7805db7b17001461dd3b5e9619e3</sys_package>
             <sys_policy/>
             <sys_scope display_value="LTG Contracts">244a7805db7b17001461dd3b5e9619e3</sys_scope>
-            <sys_update_name>sys_documentation_x_latg_ltg_contrac_ltg_contracts_table_take_or_pay_en</sys_update_name>
+            <sys_update_name>sys_documentation_x_latg_ltg_contrac_ltg_contracts_table_renewal_commitment_amount_en</sys_update_name>
             <sys_updated_by>scrocker</sys_updated_by>
-            <sys_updated_on>2018-08-07 15:40:52</sys_updated_on>
+            <sys_updated_on>2018-08-07 15:51:44</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>
