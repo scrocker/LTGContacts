@@ -5,13 +5,13 @@
             <element>contract_start_date</element>
             <position>0</position>
             <sys_created_by>scrocker</sys_created_by>
-            <sys_created_on>2018-08-06 15:57:14</sys_created_on>
-            <sys_id>a4558dc1dbbb17001461dd3b5e9619ee</sys_id>
+            <sys_created_on>2018-08-07 16:03:45</sys_created_on>
+            <sys_id>21601e99db7757001461dd3b5e9619a5</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="General" display_value="General" name="x_latg_ltg_contrac_ltg_contracts_table" sys_domain="global" view="Default view">c4a34181dbbb17001461dd3b5e96199e</sys_ui_section>
             <sys_updated_by>scrocker</sys_updated_by>
-            <sys_updated_on>2018-08-06 15:57:14</sys_updated_on>
+            <sys_updated_on>2018-08-07 16:03:45</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -19,13 +19,13 @@
             <element>contract_end_date</element>
             <position>1</position>
             <sys_created_by>scrocker</sys_created_by>
-            <sys_created_on>2018-08-06 15:57:14</sys_created_on>
-            <sys_id>28558dc1dbbb17001461dd3b5e9619ee</sys_id>
+            <sys_created_on>2018-08-07 16:03:45</sys_created_on>
+            <sys_id>a1601e99db7757001461dd3b5e9619a5</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="General" display_value="General" name="x_latg_ltg_contrac_ltg_contracts_table" sys_domain="global" view="Default view">c4a34181dbbb17001461dd3b5e96199e</sys_ui_section>
             <sys_updated_by>scrocker</sys_updated_by>
-            <sys_updated_on>2018-08-06 15:57:14</sys_updated_on>
+            <sys_updated_on>2018-08-07 16:03:45</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -33,27 +33,27 @@
             <element>lansing_storage</element>
             <position>2</position>
             <sys_created_by>scrocker</sys_created_by>
-            <sys_created_on>2018-08-06 15:57:14</sys_created_on>
-            <sys_id>a8558dc1dbbb17001461dd3b5e9619ee</sys_id>
+            <sys_created_on>2018-08-07 16:03:45</sys_created_on>
+            <sys_id>25601e99db7757001461dd3b5e9619a5</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="General" display_value="General" name="x_latg_ltg_contrac_ltg_contracts_table" sys_domain="global" view="Default view">c4a34181dbbb17001461dd3b5e96199e</sys_ui_section>
             <sys_updated_by>scrocker</sys_updated_by>
-            <sys_updated_on>2018-08-06 15:57:14</sys_updated_on>
+            <sys_updated_on>2018-08-07 16:03:45</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>rail_car_receiving</element>
+            <element>modes</element>
             <position>3</position>
             <sys_created_by>scrocker</sys_created_by>
-            <sys_created_on>2018-08-06 15:57:14</sys_created_on>
-            <sys_id>2c558dc1dbbb17001461dd3b5e9619ee</sys_id>
+            <sys_created_on>2018-08-07 16:03:45</sys_created_on>
+            <sys_id>a5601e99db7757001461dd3b5e9619a5</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="General" display_value="General" name="x_latg_ltg_contrac_ltg_contracts_table" sys_domain="global" view="Default view">c4a34181dbbb17001461dd3b5e96199e</sys_ui_section>
             <sys_updated_by>scrocker</sys_updated_by>
-            <sys_updated_on>2018-08-06 15:57:14</sys_updated_on>
+            <sys_updated_on>2018-08-07 16:03:45</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -61,13 +61,13 @@
             <element>throughput_capacity</element>
             <position>4</position>
             <sys_created_by>scrocker</sys_created_by>
-            <sys_created_on>2018-08-06 15:57:14</sys_created_on>
-            <sys_id>ac558dc1dbbb17001461dd3b5e9619ee</sys_id>
+            <sys_created_on>2018-08-07 16:03:45</sys_created_on>
+            <sys_id>29601e99db7757001461dd3b5e9619a5</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="General" display_value="General" name="x_latg_ltg_contrac_ltg_contracts_table" sys_domain="global" view="Default view">c4a34181dbbb17001461dd3b5e96199e</sys_ui_section>
             <sys_updated_by>scrocker</sys_updated_by>
-            <sys_updated_on>2018-08-06 15:57:14</sys_updated_on>
+            <sys_updated_on>2018-08-07 16:03:45</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -75,13 +75,13 @@
             <element>.split</element>
             <position>5</position>
             <sys_created_by>scrocker</sys_created_by>
-            <sys_created_on>2018-08-06 15:57:14</sys_created_on>
-            <sys_id>20558dc1dbbb17001461dd3b5e9619ef</sys_id>
+            <sys_created_on>2018-08-07 16:03:45</sys_created_on>
+            <sys_id>a9601e99db7757001461dd3b5e9619a5</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="General" display_value="General" name="x_latg_ltg_contrac_ltg_contracts_table" sys_domain="global" view="Default view">c4a34181dbbb17001461dd3b5e96199e</sys_ui_section>
             <sys_updated_by>scrocker</sys_updated_by>
-            <sys_updated_on>2018-08-06 15:57:14</sys_updated_on>
+            <sys_updated_on>2018-08-07 16:03:45</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
@@ -89,13 +89,13 @@
             <element>approver</element>
             <position>6</position>
             <sys_created_by>scrocker</sys_created_by>
-            <sys_created_on>2018-08-06 15:57:14</sys_created_on>
-            <sys_id>a0558dc1dbbb17001461dd3b5e9619ef</sys_id>
+            <sys_created_on>2018-08-07 16:03:45</sys_created_on>
+            <sys_id>2d601e99db7757001461dd3b5e9619a5</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="General" display_value="General" name="x_latg_ltg_contrac_ltg_contracts_table" sys_domain="global" view="Default view">c4a34181dbbb17001461dd3b5e96199e</sys_ui_section>
             <sys_updated_by>scrocker</sys_updated_by>
-            <sys_updated_on>2018-08-06 15:57:14</sys_updated_on>
+            <sys_updated_on>2018-08-07 16:03:45</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -103,13 +103,13 @@
             <element>licensed_by</element>
             <position>7</position>
             <sys_created_by>scrocker</sys_created_by>
-            <sys_created_on>2018-08-06 15:57:14</sys_created_on>
-            <sys_id>24558dc1dbbb17001461dd3b5e9619ef</sys_id>
+            <sys_created_on>2018-08-07 16:03:45</sys_created_on>
+            <sys_id>ad601e99db7757001461dd3b5e9619a5</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="General" display_value="General" name="x_latg_ltg_contrac_ltg_contracts_table" sys_domain="global" view="Default view">c4a34181dbbb17001461dd3b5e96199e</sys_ui_section>
             <sys_updated_by>scrocker</sys_updated_by>
-            <sys_updated_on>2018-08-06 15:57:14</sys_updated_on>
+            <sys_updated_on>2018-08-07 16:03:45</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -117,13 +117,13 @@
             <element>service_obligation</element>
             <position>8</position>
             <sys_created_by>scrocker</sys_created_by>
-            <sys_created_on>2018-08-06 15:57:14</sys_created_on>
-            <sys_id>a4558dc1dbbb17001461dd3b5e9619ef</sys_id>
+            <sys_created_on>2018-08-07 16:03:45</sys_created_on>
+            <sys_id>21601e99db7757001461dd3b5e9619a6</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="General" display_value="General" name="x_latg_ltg_contrac_ltg_contracts_table" sys_domain="global" view="Default view">c4a34181dbbb17001461dd3b5e96199e</sys_ui_section>
             <sys_updated_by>scrocker</sys_updated_by>
-            <sys_updated_on>2018-08-06 15:57:14</sys_updated_on>
+            <sys_updated_on>2018-08-07 16:03:45</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -131,13 +131,13 @@
             <element>license</element>
             <position>9</position>
             <sys_created_by>scrocker</sys_created_by>
-            <sys_created_on>2018-08-06 15:57:14</sys_created_on>
-            <sys_id>28558dc1dbbb17001461dd3b5e9619ef</sys_id>
+            <sys_created_on>2018-08-07 16:03:45</sys_created_on>
+            <sys_id>a1601e99db7757001461dd3b5e9619a6</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="General" display_value="General" name="x_latg_ltg_contrac_ltg_contracts_table" sys_domain="global" view="Default view">c4a34181dbbb17001461dd3b5e96199e</sys_ui_section>
             <sys_updated_by>scrocker</sys_updated_by>
-            <sys_updated_on>2018-08-06 15:57:14</sys_updated_on>
+            <sys_updated_on>2018-08-07 16:03:45</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -145,13 +145,13 @@
             <element>rate</element>
             <position>10</position>
             <sys_created_by>scrocker</sys_created_by>
-            <sys_created_on>2018-08-06 15:57:14</sys_created_on>
-            <sys_id>a8558dc1dbbb17001461dd3b5e9619ef</sys_id>
+            <sys_created_on>2018-08-07 16:03:45</sys_created_on>
+            <sys_id>25601e99db7757001461dd3b5e9619a6</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="General" display_value="General" name="x_latg_ltg_contrac_ltg_contracts_table" sys_domain="global" view="Default view">c4a34181dbbb17001461dd3b5e96199e</sys_ui_section>
             <sys_updated_by>scrocker</sys_updated_by>
-            <sys_updated_on>2018-08-06 15:57:14</sys_updated_on>
+            <sys_updated_on>2018-08-07 16:03:45</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -159,13 +159,13 @@
             <element>storage_rate</element>
             <position>11</position>
             <sys_created_by>scrocker</sys_created_by>
-            <sys_created_on>2018-08-06 15:57:14</sys_created_on>
-            <sys_id>2c558dc1dbbb17001461dd3b5e9619ef</sys_id>
+            <sys_created_on>2018-08-07 16:03:45</sys_created_on>
+            <sys_id>a5601e99db7757001461dd3b5e9619a6</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="General" display_value="General" name="x_latg_ltg_contrac_ltg_contracts_table" sys_domain="global" view="Default view">c4a34181dbbb17001461dd3b5e96199e</sys_ui_section>
             <sys_updated_by>scrocker</sys_updated_by>
-            <sys_updated_on>2018-08-06 15:57:14</sys_updated_on>
+            <sys_updated_on>2018-08-07 16:03:45</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -173,13 +173,13 @@
             <element>other_charges</element>
             <position>12</position>
             <sys_created_by>scrocker</sys_created_by>
-            <sys_created_on>2018-08-06 15:57:14</sys_created_on>
-            <sys_id>ac558dc1dbbb17001461dd3b5e9619ef</sys_id>
+            <sys_created_on>2018-08-07 16:03:45</sys_created_on>
+            <sys_id>29601e99db7757001461dd3b5e9619a6</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="General" display_value="General" name="x_latg_ltg_contrac_ltg_contracts_table" sys_domain="global" view="Default view">c4a34181dbbb17001461dd3b5e96199e</sys_ui_section>
             <sys_updated_by>scrocker</sys_updated_by>
-            <sys_updated_on>2018-08-06 15:57:14</sys_updated_on>
+            <sys_updated_on>2018-08-07 16:03:45</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

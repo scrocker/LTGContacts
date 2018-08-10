@@ -22,6 +22,13 @@
         <element label="Contract End Date" max_length="40" name="contract_end_date" type="glide_date"/>
         <element label="Contract Name" max_length="100" name="contract_name" type="string"/>
         <element label="Contract Start Date" max_length="40" name="contract_start_date" type="glide_date"/>
+        <element choice="1" label="Contract type" max_length="30" name="contract_type" type="string">
+            <choice>
+                <element label="Lease" value="lease"/>
+                <element label="Transload" value="transload"/>
+                <element label="Transload and Storage" value="transload_and_storage"/>
+            </choice>
+        </element>
         <element label="Counter Party" max_length="40" name="counter_party" type="string"/>
         <element label="Exclusive LTG Option to Renew" max_length="40" name="exclusive_ltg_option_to_renew" type="boolean"/>
         <element label="Lansing Storage" max_length="40" name="lansing_storage" type="string"/>
@@ -31,7 +38,12 @@
                 <element label="USDA" value="usda"/>
             </choice>
         </element>
-        <element label="Licensed by" max_length="100" name="licensed_by" type="string"/>
+        <element choice="1" label="Licensed by" max_length="100" name="licensed_by" type="string">
+            <choice>
+                <element label="Lansing" value="lansing"/>
+                <element label="Counterparty" sequence="1" value="counterparty"/>
+            </choice>
+        </element>
         <element label="Loc" max_length="32" name="loc" reference="cmn_department" type="reference"/>
         <element choice="1" label="Modes" max_length="40" name="modes" type="choice">
             <choice>
@@ -41,7 +53,8 @@
             </choice>
         </element>
         <element label="Notice Required Renew" max_length="40" name="notice_required_renew" type="glide_date"/>
-        <element label="Notice required to terminate" max_length="40" name="notice_required_to_terminate" type="string"/>
+        <element label="Notice required to terminate" max_length="40" name="notice_required_to_terminate" type="boolean"/>
+        <element hint="Number of days" label="Notice to Terminate" max_length="7" name="notice_to_terminate" type="integer"/>
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
         <element label="Other Charges" max_length="100" name="other_charges" type="string"/>
         <element choice="1" label="Payment schedule" max_length="40" name="payment_schedule" type="choice">
@@ -57,21 +70,71 @@
             </choice>
         </element>
         <element label="Payment terms" max_length="100" name="payment_terms" type="string"/>
-        <element label="Rate" max_length="100" name="rate" type="string"/>
+        <element label="Rate" max_length="20" name="rate" type="price"/>
         <element label="Renewal Begin Date" max_length="40" name="renewal_begin_date" type="glide_date"/>
         <element label="Renewal Commitment Amount" max_length="20" name="renewal_commitment_amount" type="price"/>
         <element label="Renewal Date End" max_length="40" name="renewal_date_end" type="glide_date"/>
-        <element label="Renewal Price" max_length="20" name="renewal_price" type="price"/>
         <element label="Renew notice to" max_length="32" name="renew_notice_to" reference="sys_user" type="reference"/>
         <element label="Renew Other Charges" max_length="20" name="renew_other_charges" type="string"/>
-        <element label="Renew Rate" max_length="20" name="renew_rate" type="string"/>
-        <element label="Renew Storage Rate" max_length="20" name="renew_storage_rate" type="string"/>
+        <element label="Renew Rate" max_length="20" name="renew_rate" type="price"/>
+        <element label="Renew Storage Rate" max_length="20" name="renew_storage_rate" type="price"/>
         <element label="Service Obligation" max_length="100" name="service_obligation" type="string"/>
         <element label="Short Description" max_length="100" name="short_description" type="string"/>
-        <element choice="3" label="State of Contract" max_length="50" name="state_of_contract" type="string">
-            <choice/>
+        <element choice="1" label="State of Contract" max_length="50" name="state_of_contract" type="string">
+            <choice>
+                <element label="Alabama" sequence="0" value="alabama"/>
+                <element label="Alaska" sequence="1" value="alaska"/>
+                <element label="Arizona" sequence="2" value="arizona"/>
+                <element label="Arkansas" sequence="3" value="arkansas"/>
+                <element label="California" sequence="4" value="California"/>
+                <element label="Colorado" sequence="5" value="colorado"/>
+                <element label="Connecticut" sequence="6" value="connecticut"/>
+                <element label="Delaware" sequence="7" value="delaware"/>
+                <element label="Florida" sequence="8" value="florida"/>
+                <element label="Georgia" sequence="9" value="georgia"/>
+                <element label="Hawaii" sequence="10" value="hawaii"/>
+                <element label="Idaho" sequence="11" value="idaho"/>
+                <element label="Illinois" sequence="12" value="illinois"/>
+                <element label="Indiana" sequence="13" value="indiana"/>
+                <element label="Iowa" sequence="14" value="Iowa"/>
+                <element label="Kansas" sequence="15" value="kansas"/>
+                <element label="Kentucky" sequence="16" value="kentucky"/>
+                <element label="Louisiana" sequence="17" value="Louisiana"/>
+                <element label="Maine" sequence="18" value="maine"/>
+                <element label="Maryland" sequence="19" value="maryland"/>
+                <element label="Massachusetts" sequence="20" value="massachusetts"/>
+                <element label="Michigan" sequence="21" value="michigan"/>
+                <element label="Minnesota" sequence="22" value="Minnesota"/>
+                <element label="Mississippi" sequence="23" value="mississippi"/>
+                <element label="Missouri" sequence="24" value="missouri"/>
+                <element label="Montana" sequence="25" value="montana"/>
+                <element label="Nebraska" sequence="26" value="nebraska"/>
+                <element label="Nevada" sequence="27" value="nevada"/>
+                <element label="New Hampshire" sequence="28" value="new hampshire"/>
+                <element label="New Jersey" sequence="29" value="new jersey"/>
+                <element label="New Mexico" sequence="30" value="new mexico"/>
+                <element label="New York" sequence="31" value="new york"/>
+                <element label="North Carolina" sequence="32" value="north carolina"/>
+                <element label="North Dakota" sequence="33" value="north dakota"/>
+                <element label="Ohio" sequence="34" value="ohio"/>
+                <element label="Oklahoma" sequence="35" value="oklahoma"/>
+                <element label="Oregon" sequence="36" value="Oregon"/>
+                <element label="Pennsylvania" sequence="37" value="pennsylvania"/>
+                <element label="Rhode Island" sequence="38" value="rhode island"/>
+                <element label="South Carolina" sequence="39" value="south carolina"/>
+                <element label="South Dakota" sequence="40" value="south dakota"/>
+                <element label="Tennessee" sequence="41" value="tennessee"/>
+                <element label="Texas" sequence="42" value="texas"/>
+                <element label="Utah" sequence="43" value="utah"/>
+                <element label="Vermont" sequence="44" value="vermont"/>
+                <element label="Virginia" sequence="45" value="virginia"/>
+                <element label="Washington" sequence="46" value="washington"/>
+                <element label="West Virginia" sequence="47" value="west virginia"/>
+                <element label="Wisconsin" sequence="48" value="wisconsin"/>
+                <element label="Wyoming" sequence="49" value="wyoming"/>
+            </choice>
         </element>
-        <element label="Storage Rate" max_length="100" name="storage_rate" type="string"/>
+        <element label="Storage Rate" max_length="60" name="storage_rate" type="price"/>
         <element label="Take or Pay" max_length="40" name="take_or_pay" type="boolean"/>
         <element label="Take or Pay renewal" max_length="40" name="take_or_pay_renewal" type="boolean"/>
         <element label="Throughput capacity" max_length="40" name="throughput_capacity" type="string"/>

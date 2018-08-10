@@ -5,223 +5,195 @@
             <element>contract_name</element>
             <position>0</position>
             <sys_created_by>scrocker</sys_created_by>
-            <sys_created_on>2018-08-07 15:53:11</sys_created_on>
-            <sys_id>8ffdce19db7757001461dd3b5e96194d</sys_id>
+            <sys_created_on>2018-08-10 18:36:49</sys_created_on>
+            <sys_id>dd30529adb3bd7001461dd3b5e96190c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_latg_ltg_contrac_ltg_contracts_table" sys_domain="global" view="Default view">69dbfc45db7b17001461dd3b5e9619f9</sys_ui_section>
             <sys_updated_by>scrocker</sys_updated_by>
-            <sys_updated_on>2018-08-07 15:53:11</sys_updated_on>
+            <sys_updated_on>2018-08-10 18:36:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>contract_type</element>
+            <position>1</position>
+            <sys_created_by>scrocker</sys_created_by>
+            <sys_created_on>2018-08-10 18:36:49</sys_created_on>
+            <sys_id>5130529adb3bd7001461dd3b5e96190d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_latg_ltg_contrac_ltg_contracts_table" sys_domain="global" view="Default view">69dbfc45db7b17001461dd3b5e9619f9</sys_ui_section>
+            <sys_updated_by>scrocker</sys_updated_by>
+            <sys_updated_on>2018-08-10 18:36:49</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>loc</element>
-            <position>1</position>
+            <position>2</position>
             <sys_created_by>scrocker</sys_created_by>
-            <sys_created_on>2018-08-07 15:53:11</sys_created_on>
-            <sys_id>03fdce19db7757001461dd3b5e96194e</sys_id>
+            <sys_created_on>2018-08-10 18:36:49</sys_created_on>
+            <sys_id>d130529adb3bd7001461dd3b5e96190d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_latg_ltg_contrac_ltg_contracts_table" sys_domain="global" view="Default view">69dbfc45db7b17001461dd3b5e9619f9</sys_ui_section>
             <sys_updated_by>scrocker</sys_updated_by>
-            <sys_updated_on>2018-08-07 15:53:11</sys_updated_on>
+            <sys_updated_on>2018-08-10 18:36:49</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>trader_project_lead</element>
-            <position>2</position>
+            <position>3</position>
             <sys_created_by>scrocker</sys_created_by>
-            <sys_created_on>2018-08-07 15:53:11</sys_created_on>
-            <sys_id>83fdce19db7757001461dd3b5e96194e</sys_id>
+            <sys_created_on>2018-08-10 18:36:49</sys_created_on>
+            <sys_id>5530529adb3bd7001461dd3b5e96190d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_latg_ltg_contrac_ltg_contracts_table" sys_domain="global" view="Default view">69dbfc45db7b17001461dd3b5e9619f9</sys_ui_section>
             <sys_updated_by>scrocker</sys_updated_by>
-            <sys_updated_on>2018-08-07 15:53:11</sys_updated_on>
+            <sys_updated_on>2018-08-10 18:36:49</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_contract_number</element>
-            <position>3</position>
+            <position>4</position>
             <sys_created_by>scrocker</sys_created_by>
-            <sys_created_on>2018-08-07 15:53:11</sys_created_on>
-            <sys_id>07fdce19db7757001461dd3b5e96194e</sys_id>
+            <sys_created_on>2018-08-10 18:36:49</sys_created_on>
+            <sys_id>d530529adb3bd7001461dd3b5e96190d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_latg_ltg_contrac_ltg_contracts_table" sys_domain="global" view="Default view">69dbfc45db7b17001461dd3b5e9619f9</sys_ui_section>
             <sys_updated_by>scrocker</sys_updated_by>
-            <sys_updated_on>2018-08-07 15:53:11</sys_updated_on>
+            <sys_updated_on>2018-08-10 18:36:49</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
-            <position>4</position>
+            <position>5</position>
             <sys_created_by>scrocker</sys_created_by>
-            <sys_created_on>2018-08-07 15:53:11</sys_created_on>
-            <sys_id>87fdce19db7757001461dd3b5e96194e</sys_id>
+            <sys_created_on>2018-08-10 18:36:49</sys_created_on>
+            <sys_id>5930529adb3bd7001461dd3b5e96190d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_latg_ltg_contrac_ltg_contracts_table" sys_domain="global" view="Default view">69dbfc45db7b17001461dd3b5e9619f9</sys_ui_section>
             <sys_updated_by>scrocker</sys_updated_by>
-            <sys_updated_on>2018-08-07 15:53:11</sys_updated_on>
+            <sys_updated_on>2018-08-10 18:36:49</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>counter_party</element>
-            <position>5</position>
+            <position>6</position>
             <sys_created_by>scrocker</sys_created_by>
-            <sys_created_on>2018-08-07 15:53:11</sys_created_on>
-            <sys_id>0bfdce19db7757001461dd3b5e96194e</sys_id>
+            <sys_created_on>2018-08-10 18:36:49</sys_created_on>
+            <sys_id>d930529adb3bd7001461dd3b5e96190d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_latg_ltg_contrac_ltg_contracts_table" sys_domain="global" view="Default view">69dbfc45db7b17001461dd3b5e9619f9</sys_ui_section>
             <sys_updated_by>scrocker</sys_updated_by>
-            <sys_updated_on>2018-08-07 15:53:11</sys_updated_on>
+            <sys_updated_on>2018-08-10 18:36:49</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>take_or_pay</element>
-            <position>6</position>
+            <position>7</position>
             <sys_created_by>scrocker</sys_created_by>
-            <sys_created_on>2018-08-07 15:53:11</sys_created_on>
-            <sys_id>8bfdce19db7757001461dd3b5e96194e</sys_id>
+            <sys_created_on>2018-08-10 18:36:49</sys_created_on>
+            <sys_id>5d30529adb3bd7001461dd3b5e96190d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_latg_ltg_contrac_ltg_contracts_table" sys_domain="global" view="Default view">69dbfc45db7b17001461dd3b5e9619f9</sys_ui_section>
             <sys_updated_by>scrocker</sys_updated_by>
-            <sys_updated_on>2018-08-07 15:53:11</sys_updated_on>
+            <sys_updated_on>2018-08-10 18:36:49</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>commitment_amount</element>
-            <position>7</position>
+            <position>8</position>
             <sys_created_by>scrocker</sys_created_by>
-            <sys_created_on>2018-08-07 15:53:11</sys_created_on>
-            <sys_id>0ffdce19db7757001461dd3b5e96194e</sys_id>
+            <sys_created_on>2018-08-10 18:36:49</sys_created_on>
+            <sys_id>dd30529adb3bd7001461dd3b5e96190d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_latg_ltg_contrac_ltg_contracts_table" sys_domain="global" view="Default view">69dbfc45db7b17001461dd3b5e9619f9</sys_ui_section>
             <sys_updated_by>scrocker</sys_updated_by>
-            <sys_updated_on>2018-08-07 15:53:11</sys_updated_on>
+            <sys_updated_on>2018-08-10 18:36:49</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>state_of_contract</element>
-            <position>8</position>
+            <position>9</position>
             <sys_created_by>scrocker</sys_created_by>
-            <sys_created_on>2018-08-07 15:53:11</sys_created_on>
-            <sys_id>8ffdce19db7757001461dd3b5e96194e</sys_id>
+            <sys_created_on>2018-08-10 18:36:49</sys_created_on>
+            <sys_id>5130529adb3bd7001461dd3b5e96190e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_latg_ltg_contrac_ltg_contracts_table" sys_domain="global" view="Default view">69dbfc45db7b17001461dd3b5e9619f9</sys_ui_section>
             <sys_updated_by>scrocker</sys_updated_by>
-            <sys_updated_on>2018-08-07 15:53:11</sys_updated_on>
+            <sys_updated_on>2018-08-10 18:36:49</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>commodity</element>
-            <position>9</position>
+            <position>10</position>
             <sys_created_by>scrocker</sys_created_by>
-            <sys_created_on>2018-08-07 15:53:11</sys_created_on>
-            <sys_id>03fdce19db7757001461dd3b5e96194f</sys_id>
+            <sys_created_on>2018-08-10 18:36:49</sys_created_on>
+            <sys_id>d130529adb3bd7001461dd3b5e96190e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_latg_ltg_contrac_ltg_contracts_table" sys_domain="global" view="Default view">69dbfc45db7b17001461dd3b5e9619f9</sys_ui_section>
             <sys_updated_by>scrocker</sys_updated_by>
-            <sys_updated_on>2018-08-07 15:53:11</sys_updated_on>
+            <sys_updated_on>2018-08-10 18:36:49</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.end_split</element>
-            <position>10</position>
+            <position>11</position>
             <sys_created_by>scrocker</sys_created_by>
-            <sys_created_on>2018-08-07 15:53:11</sys_created_on>
-            <sys_id>83fdce19db7757001461dd3b5e96194f</sys_id>
+            <sys_created_on>2018-08-10 18:36:49</sys_created_on>
+            <sys_id>5530529adb3bd7001461dd3b5e96190e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_latg_ltg_contrac_ltg_contracts_table" sys_domain="global" view="Default view">69dbfc45db7b17001461dd3b5e9619f9</sys_ui_section>
             <sys_updated_by>scrocker</sys_updated_by>
-            <sys_updated_on>2018-08-07 15:53:11</sys_updated_on>
+            <sys_updated_on>2018-08-10 18:36:49</sys_updated_on>
             <sys_user/>
             <type>.end_split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>short_description</element>
-            <position>11</position>
-            <sys_created_by>scrocker</sys_created_by>
-            <sys_created_on>2018-08-07 15:53:11</sys_created_on>
-            <sys_id>07fdce19db7757001461dd3b5e96194f</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_latg_ltg_contrac_ltg_contracts_table" sys_domain="global" view="Default view">69dbfc45db7b17001461dd3b5e9619f9</sys_ui_section>
-            <sys_updated_by>scrocker</sys_updated_by>
-            <sys_updated_on>2018-08-07 15:53:11</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>modes</element>
             <position>12</position>
             <sys_created_by>scrocker</sys_created_by>
-            <sys_created_on>2018-08-07 15:59:52</sys_created_on>
-            <sys_id>7c8f4e59db7757001461dd3b5e9619bb</sys_id>
+            <sys_created_on>2018-08-10 18:36:49</sys_created_on>
+            <sys_id>d530529adb3bd7001461dd3b5e96190e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_latg_ltg_contrac_ltg_contracts_table" sys_domain="global" view="Default view">69dbfc45db7b17001461dd3b5e9619f9</sys_ui_section>
             <sys_updated_by>scrocker</sys_updated_by>
-            <sys_updated_on>2018-08-07 15:59:52</sys_updated_on>
+            <sys_updated_on>2018-08-10 18:36:49</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>renew_rate</element>
+            <element>rate</element>
             <position>13</position>
             <sys_created_by>scrocker</sys_created_by>
-            <sys_created_on>2018-08-07 16:01:31</sys_created_on>
-            <sys_id>41ef4e59db7757001461dd3b5e96194a</sys_id>
+            <sys_created_on>2018-08-10 18:45:05</sys_created_on>
+            <sys_id>8a1212dadb3bd7001461dd3b5e96190e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_latg_ltg_contrac_ltg_contracts_table" sys_domain="global" view="Default view">69dbfc45db7b17001461dd3b5e9619f9</sys_ui_section>
             <sys_updated_by>scrocker</sys_updated_by>
-            <sys_updated_on>2018-08-07 16:01:31</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>renew_storage_rate</element>
-            <position>14</position>
-            <sys_created_by>scrocker</sys_created_by>
-            <sys_created_on>2018-08-07 16:01:52</sys_created_on>
-            <sys_id>82ffc699db7757001461dd3b5e961939</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_latg_ltg_contrac_ltg_contracts_table" sys_domain="global" view="Default view">69dbfc45db7b17001461dd3b5e9619f9</sys_ui_section>
-            <sys_updated_by>scrocker</sys_updated_by>
-            <sys_updated_on>2018-08-07 16:01:52</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>renew_other_charges</element>
-            <position>15</position>
-            <sys_created_by>scrocker</sys_created_by>
-            <sys_created_on>2018-08-07 16:02:13</sys_created_on>
-            <sys_id>9700d699db7757001461dd3b5e961994</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_latg_ltg_contrac_ltg_contracts_table" sys_domain="global" view="Default view">69dbfc45db7b17001461dd3b5e9619f9</sys_ui_section>
-            <sys_updated_by>scrocker</sys_updated_by>
-            <sys_updated_on>2018-08-07 16:02:13</sys_updated_on>
+            <sys_updated_on>2018-08-10 18:45:05</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
