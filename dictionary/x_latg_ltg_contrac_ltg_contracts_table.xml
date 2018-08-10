@@ -134,7 +134,7 @@
                 <element label="Wyoming" sequence="49" value="wyoming"/>
             </choice>
         </element>
-        <element label="Storage Rate" max_length="60" name="storage_rate" type="price"/>
+        <element label="Storage Rate" max_length="38" name="storage_rate" type="price"/>
         <element label="Take or Pay" max_length="40" name="take_or_pay" type="boolean"/>
         <element label="Take or Pay renewal" max_length="40" name="take_or_pay_renewal" type="boolean"/>
         <element label="Throughput capacity" max_length="40" name="throughput_capacity" type="string"/>
