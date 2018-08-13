@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="lansing_storage" table="x_latg_ltg_contrac_ltg_contracts_table">
+    <sys_dictionary action="INSERT_OR_UPDATE" element="throughput" table="x_latg_ltg_contrac_ltg_contracts_table">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
@@ -15,7 +15,7 @@
         <choice>1</choice>
         <choice_field/>
         <choice_table/>
-        <column_label>Lansing Storage</column_label>
+        <column_label>Throughput</column_label>
         <comments/>
         <create_roles/>
         <default_value/>
@@ -28,7 +28,7 @@
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>lansing_storage</element>
+        <element>throughput</element>
         <element_reference>false</element_reference>
         <foreign_database/>
         <function_definition/>
@@ -53,16 +53,16 @@
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>scrocker</sys_created_by>
-        <sys_created_on>2018-08-13 13:02:10</sys_created_on>
-        <sys_id>3540ac13dbf75b001461dd3b5e9619d9</sys_id>
+        <sys_created_on>2018-08-13 13:04:23</sys_created_on>
+        <sys_id>1bb0a053dbf75b001461dd3b5e961949</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Lansing Storage</sys_name>
+        <sys_name>Throughput</sys_name>
         <sys_package display_value="LTG Contracts" source="x_latg_ltg_contrac">244a7805db7b17001461dd3b5e9619e3</sys_package>
         <sys_policy/>
         <sys_scope display_value="LTG Contracts">244a7805db7b17001461dd3b5e9619e3</sys_scope>
-        <sys_update_name>sys_dictionary_x_latg_ltg_contrac_ltg_contracts_table_lansing_storage</sys_update_name>
+        <sys_update_name>sys_dictionary_x_latg_ltg_contrac_ltg_contracts_table_throughput</sys_update_name>
         <sys_updated_by>scrocker</sys_updated_by>
-        <sys_updated_on>2018-08-13 13:02:10</sys_updated_on>
+        <sys_updated_on>2018-08-13 13:04:23</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

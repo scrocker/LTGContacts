@@ -31,7 +31,13 @@
         </element>
         <element label="Counter Party" max_length="40" name="counter_party" type="string"/>
         <element label="Exclusive LTG Option to Renew" max_length="40" name="exclusive_ltg_option_to_renew" type="boolean"/>
-        <element label="Lansing Storage" max_length="40" name="lansing_storage" type="string"/>
+        <element choice="1" label="Lansing Storage" max_length="40" name="lansing_storage" type="choice">
+            <choice>
+                <element label="Bushel" value="bushel"/>
+                <element label="Ton" value="ton"/>
+            </choice>
+        </element>
+        <element label="Lansing Storage Amount" max_length="100" name="lansing_storage_amount" type="string"/>
         <element choice="1" label="License" max_length="10" name="license" type="string">
             <choice>
                 <element label="State" value="state"/>
@@ -55,7 +61,7 @@
         <element label="Notice Required Renew" max_length="40" name="notice_required_renew" type="glide_date"/>
         <element label="Notice required to terminate" max_length="40" name="notice_required_to_terminate" type="boolean"/>
         <element hint="Number of days" label="Notice to Terminate" max_length="7" name="notice_to_terminate" type="integer"/>
-        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Contract Number" max_length="40" name="number" type="string"/>
         <element label="Other Charges" max_length="100" name="other_charges" type="string"/>
         <element choice="1" label="Payment schedule" max_length="40" name="payment_schedule" type="choice">
             <choice>
@@ -137,9 +143,14 @@
         <element label="Storage Rate" max_length="38" name="storage_rate" type="price"/>
         <element label="Take or Pay" max_length="40" name="take_or_pay" type="boolean"/>
         <element label="Take or Pay renewal" max_length="40" name="take_or_pay_renewal" type="boolean"/>
+        <element choice="1" label="Throughput" max_length="40" name="throughput" type="choice">
+            <choice>
+                <element label="Bushel" value="bushel"/>
+                <element label="Ton" value="ton"/>
+            </choice>
+        </element>
         <element label="Throughput capacity" max_length="40" name="throughput_capacity" type="string"/>
         <element label="Trader project lead" max_length="32" name="trader_project_lead" reference="sys_user" type="reference"/>
-        <element attributes="edge_encryption_enabled=true" label="Contract Number" max_length="40" name="u_contract_number" type="string"/>
         <index name="index">
             <element name="approver"/>
         </index>
