@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update>
+<?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_choice action="INSERT_OR_UPDATE" field="payment_schedule" table="x_latg_ltg_contrac_ltg_contracts_table" version="3">
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
@@ -159,7 +158,7 @@
             <sys_class_name>sys_choice_set</sys_class_name>
             <sys_created_by>scrocker</sys_created_by>
             <sys_created_on>2018-08-06 15:39:09</sys_created_on>
-            <sys_id>eb21cd8ddb7b17001461dd3b5e961987</sys_id>
+            <sys_id>e8af3d17db331300fcc385184b9619f9</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>payment_schedule</sys_name>
             <sys_package display_value="LTG Contracts" source="x_latg_ltg_contrac">244a7805db7b17001461dd3b5e9619e3</sys_package>

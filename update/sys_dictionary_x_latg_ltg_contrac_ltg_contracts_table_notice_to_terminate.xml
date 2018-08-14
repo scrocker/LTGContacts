@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update>
+<?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_dictionary action="INSERT_OR_UPDATE" element="notice_to_terminate" table="x_latg_ltg_contrac_ltg_contracts_table">
         <active>true</active>
         <array>false</array>
@@ -54,15 +53,15 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>scrocker</sys_created_by>
         <sys_created_on>2018-08-10 18:35:37</sys_created_on>
-        <sys_id>e1bf065adb3bd7001461dd3b5e961981</sys_id>
+        <sys_id>5d9f7917db331300fcc385184b96197f</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Notice to Terminate</sys_name>
         <sys_package display_value="LTG Contracts" source="x_latg_ltg_contrac">244a7805db7b17001461dd3b5e9619e3</sys_package>
         <sys_policy/>
         <sys_scope display_value="LTG Contracts">244a7805db7b17001461dd3b5e9619e3</sys_scope>
         <sys_update_name>sys_dictionary_x_latg_ltg_contrac_ltg_contracts_table_notice_to_terminate</sys_update_name>
-        <sys_updated_by>scrocker</sys_updated_by>
-        <sys_updated_on>2018-08-10 18:35:37</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2018-08-13 19:58:16</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

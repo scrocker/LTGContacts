@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update>
+<?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_documentation element="take_or_pay_renewal" label="Take or Pay renewal" language="en" table="x_latg_ltg_contrac_ltg_contracts_table">
         <sys_documentation action="INSERT_OR_UPDATE">
             <element>take_or_pay_renewal</element>
