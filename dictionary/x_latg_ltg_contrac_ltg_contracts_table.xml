@@ -37,7 +37,7 @@
                 <element label="Ton" value="ton"/>
             </choice>
         </element>
-        <element label="Lansing Storage Amount" max_length="100" name="lansing_storage_amount" type="string"/>
+        <element label="Lansing Storage Amount" max_length="100" name="lansing_storage_amount" type="integer"/>
         <element choice="1" label="License" max_length="10" name="license" type="string">
             <choice>
                 <element label="State" value="state"/>
