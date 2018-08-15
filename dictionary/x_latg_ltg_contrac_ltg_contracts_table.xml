@@ -155,13 +155,13 @@
             <element name="approver"/>
         </index>
         <index name="index2">
-            <element name="loc"/>
+            <element name="trader_project_lead"/>
         </index>
         <index name="index3">
-            <element name="renew_notice_to"/>
+            <element name="loc"/>
         </index>
         <index name="index4">
-            <element name="trader_project_lead"/>
+            <element name="renew_notice_to"/>
         </index>
     </element>
 </database>

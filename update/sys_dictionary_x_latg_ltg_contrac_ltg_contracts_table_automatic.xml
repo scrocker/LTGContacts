@@ -54,15 +54,15 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>scrocker</sys_created_by>
         <sys_created_on>2018-08-06 15:34:44</sys_created_on>
-        <sys_id>c710494ddb7b17001461dd3b5e96196a</sys_id>
+        <sys_id>8a0c4b37dbb313009337560868961919</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Automatic</sys_name>
         <sys_package display_value="LTG Contracts" source="x_latg_ltg_contrac">244a7805db7b17001461dd3b5e9619e3</sys_package>
         <sys_policy/>
         <sys_scope display_value="LTG Contracts">244a7805db7b17001461dd3b5e9619e3</sys_scope>
         <sys_update_name>sys_dictionary_x_latg_ltg_contrac_ltg_contracts_table_automatic</sys_update_name>
-        <sys_updated_by>scrocker</sys_updated_by>
-        <sys_updated_on>2018-08-06 15:34:44</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2018-08-15 14:49:09</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
