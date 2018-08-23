@@ -183,6 +183,20 @@
             <sys_user/>
             <type/>
         </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>notes</element>
+            <position>13</position>
+            <sys_created_by>scrocker</sys_created_by>
+            <sys_created_on>2018-08-23 13:44:21</sys_created_on>
+            <sys_id>33e98c26db4423401461dd3b5e961951</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_latg_ltg_contrac_ltg_contracts_table" sys_domain="global" view="Default view">2ab44d81dbbb17001461dd3b5e961935</sys_ui_section>
+            <sys_updated_by>scrocker</sys_updated_by>
+            <sys_updated_on>2018-08-23 13:44:21</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
         <sys_ui_section action="INSERT_OR_UPDATE">
             <caption/>
             <header>false</header>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>1000</order>
+        <role display_value="x_latg_ltg_contrac.user" name="x_latg_ltg_contrac.user">6c4af045db7b17001461dd3b5e9619f8</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2018-08-23 13:50:13</sys_created_on>
+        <sys_id>a54bc86adbc42f0074ae7b5b8c96192e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>6c4af045db7b17001461dd3b5e9619f8</sys_name>
+        <sys_package display_value="LTG Contracts" source="x_latg_ltg_contrac">244a7805db7b17001461dd3b5e9619e3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="LTG Contracts">244a7805db7b17001461dd3b5e9619e3</sys_scope>
+        <sys_update_name>sys_embedded_help_role_a54bc86adbc42f0074ae7b5b8c96192e</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2018-08-23 13:50:13</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>

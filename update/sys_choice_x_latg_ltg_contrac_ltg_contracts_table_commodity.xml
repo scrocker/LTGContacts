@@ -87,14 +87,33 @@
             <name>x_latg_ltg_contrac_ltg_contracts_table</name>
             <sequence/>
             <sys_created_by>scrocker</sys_created_by>
+            <sys_created_on>2018-08-23 13:39:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1ac88026db4423401461dd3b5e9619c2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>scrocker</sys_updated_by>
+            <sys_updated_on>2018-08-23 13:39:34</sys_updated_on>
+            <value>feed ingredients</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>commodity</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Feed Ingredients &amp; Grains</label>
+            <language>en</language>
+            <name>x_latg_ltg_contrac_ltg_contracts_table</name>
+            <sequence/>
+            <sys_created_by>scrocker</sys_created_by>
             <sys_created_on>2018-08-07 15:56:56</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>f9de8659db7757001461dd3b5e9619f1</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>scrocker</sys_updated_by>
-            <sys_updated_on>2018-08-07 15:56:56</sys_updated_on>
-            <value>feed ingredients</value>
+            <sys_updated_on>2018-08-23 13:39:58</sys_updated_on>
+            <value>feed ingredients and grains</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
@@ -197,7 +216,7 @@
             <sys_class_name>sys_choice_set</sys_class_name>
             <sys_created_by>scrocker</sys_created_by>
             <sys_created_on>2018-08-07 15:55:35</sys_created_on>
-            <sys_id>7f0ccb37dbb3130093375608689619c3</sys_id>
+            <sys_id>cb4bc8a6db4423401461dd3b5e961982</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>commodity</sys_name>
             <sys_package display_value="LTG Contracts" source="x_latg_ltg_contrac">244a7805db7b17001461dd3b5e9619e3</sys_package>

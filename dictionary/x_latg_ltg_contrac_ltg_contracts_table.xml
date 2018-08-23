@@ -12,6 +12,7 @@
                 <element label="Cotton Seed" value="cotton seed"/>
                 <element label="DDGS" value="ddgs"/>
                 <element label="Feed Ingredients" value="feed ingredients"/>
+                <element label="Feed Ingredients &amp; Grains" value="feed ingredients and grains"/>
                 <element label="Grains" value="grains"/>
                 <element label="Milo" value="milo"/>
                 <element label="Soybean Meal" value="soybean meal"/>
@@ -29,11 +30,13 @@
                 <element label="Transload and Storage" value="transload_and_storage"/>
             </choice>
         </element>
-        <element label="Counter Party" max_length="40" name="counter_party" type="string"/>
+        <element label="Counter Party" max_length="500" name="counter_party" type="string"/>
         <element label="Exclusive LTG Option to Renew" max_length="40" name="exclusive_ltg_option_to_renew" type="boolean"/>
         <element choice="1" label="Lansing Storage" max_length="40" name="lansing_storage" type="choice">
             <choice>
                 <element label="Bushel" value="bushel"/>
+                <element label="Container" value="container"/>
+                <element label="Multiple Bushel" value="multiple bushel"/>
                 <element label="Ton" value="ton"/>
             </choice>
         </element>
@@ -58,6 +61,7 @@
                 <element label="Truck" value="truck"/>
             </choice>
         </element>
+        <element label="Notes" max_length="4000" name="notes" type="string"/>
         <element label="Notice Required Renew" max_length="40" name="notice_required_renew" type="glide_date"/>
         <element label="Notice required to terminate" max_length="40" name="notice_required_to_terminate" type="boolean"/>
         <element hint="Number of days" label="Notice to Terminate" max_length="7" name="notice_to_terminate" type="integer"/>
@@ -65,6 +69,10 @@
         <element label="Other Charges" max_length="100" name="other_charges" type="string"/>
         <element choice="1" label="Payment schedule" max_length="40" name="payment_schedule" type="choice">
             <choice>
+                <element label="Within 10 days of invoice" value="within 10 days of invoice"/>
+                <element label="Within 15 days of invoice" value="within 15 days of invoice"/>
+                <element label="Within 30 days of invoice" value="within 30 days of invoice"/>
+                <element label="Within 45 days of invoice" value="within 45days of invoice"/>
                 <element label="Daily" sequence="10" value="daily"/>
                 <element label="Weekly" sequence="20" value="weekly"/>
                 <element label="Every 2 Weeks" sequence="30" value="weekly2"/>
@@ -138,6 +146,9 @@
                 <element label="West Virginia" sequence="47" value="west virginia"/>
                 <element label="Wisconsin" sequence="48" value="wisconsin"/>
                 <element label="Wyoming" sequence="49" value="wyoming"/>
+                <element label="Mexico" sequence="52" value="mexico"/>
+                <element label="Canada" sequence="53" value="canada"/>
+                <element label="United Kingdom" sequence="54" value="united kingdom"/>
             </choice>
         </element>
         <element label="Storage Rate" max_length="38" name="storage_rate" type="price"/>
@@ -146,6 +157,8 @@
         <element choice="1" label="Throughput" max_length="40" name="throughput" type="choice">
             <choice>
                 <element label="Bushel" value="bushel"/>
+                <element label="Container" value="container"/>
+                <element label="Multiple Bushel" value="multiple bushel"/>
                 <element label="Ton" value="ton"/>
             </choice>
         </element>
