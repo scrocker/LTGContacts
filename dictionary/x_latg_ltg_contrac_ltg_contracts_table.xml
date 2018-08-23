@@ -61,8 +61,12 @@
                 <element label="Truck" value="truck"/>
             </choice>
         </element>
+        <element label="Multiple notice required to renew" max_length="40" name="multiple_notice_required" type="glide_date"/>
+        <element label="Multiple Renewal Begin Date" max_length="40" name="multiple_renewal_begin_date" type="glide_date"/>
+        <element label="Multiple Renewal End Date" max_length="40" name="multiple_renewal_end_date" type="glide_date"/>
+        <element label="Mutiple Renewal" max_length="40" name="mutiple_renewal" type="boolean"/>
         <element label="Notes" max_length="4000" name="notes" type="string"/>
-        <element label="Notice Required Renew" max_length="40" name="notice_required_renew" type="glide_date"/>
+        <element label="LTG Notice Required Renew" max_length="40" name="notice_required_renew" type="glide_date"/>
         <element label="Notice required to terminate" max_length="40" name="notice_required_to_terminate" type="boolean"/>
         <element hint="Number of days" label="Notice to Terminate" max_length="7" name="notice_to_terminate" type="integer"/>
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Contract Number" max_length="40" name="number" type="string"/>
@@ -85,9 +89,9 @@
         </element>
         <element label="Payment terms" max_length="100" name="payment_terms" type="string"/>
         <element label="Rate" max_length="20" name="rate" type="price"/>
-        <element label="Renewal Begin Date" max_length="40" name="renewal_begin_date" type="glide_date"/>
+        <element label="LTG Renewal Begin Date" max_length="40" name="renewal_begin_date" type="glide_date"/>
         <element label="Renewal Commitment Amount" max_length="20" name="renewal_commitment_amount" type="price"/>
-        <element label="Renewal Date End" max_length="40" name="renewal_date_end" type="glide_date"/>
+        <element label="LTG Renewal Date End" max_length="40" name="renewal_date_end" type="glide_date"/>
         <element label="Renew notice to" max_length="32" name="renew_notice_to" reference="sys_user" type="reference"/>
         <element label="Renew Other Charges" max_length="20" name="renew_other_charges" type="string"/>
         <element label="Renew Rate" max_length="20" name="renew_rate" type="price"/>
