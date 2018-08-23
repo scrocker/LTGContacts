@@ -57,6 +57,20 @@
             <sys_updated_by>scrocker</sys_updated_by>
             <sys_updated_on>2018-08-06 15:54:18</sys_updated_on>
         </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>4</position>
+            <sys_created_by>scrocker</sys_created_by>
+            <sys_created_on>2018-08-23 13:59:56</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>737dcca6db4423401461dd3b5e9619a0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_latg_ltg_contrac_ltg_contracts_table" name="x_latg_ltg_contrac_ltg_contracts_table" sys_domain="global" view="Default view">c0a34181dbbb17001461dd3b5e96199d</sys_ui_form>
+            <sys_ui_section caption="Notes" display_value="Notes" name="x_latg_ltg_contrac_ltg_contracts_table" sys_domain="global" view="Default view">377dcca6db4423401461dd3b5e96199d</sys_ui_section>
+            <sys_updated_by>scrocker</sys_updated_by>
+            <sys_updated_on>2018-08-23 13:59:56</sys_updated_on>
+        </sys_ui_form_section>
         <sys_ui_form action="INSERT_OR_UPDATE">
             <name>x_latg_ltg_contrac_ltg_contracts_table</name>
             <roles/>
