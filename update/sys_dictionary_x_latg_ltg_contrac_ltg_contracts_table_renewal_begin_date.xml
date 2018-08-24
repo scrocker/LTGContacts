@@ -15,7 +15,7 @@
         <choice/>
         <choice_field/>
         <choice_table/>
-        <column_label>Renewal Begin Date</column_label>
+        <column_label>LTG Renewal Begin Date</column_label>
         <comments/>
         <create_roles/>
         <default_value/>
@@ -54,15 +54,15 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>scrocker</sys_created_by>
         <sys_created_on>2018-08-06 15:35:13</sys_created_on>
-        <sys_id>c20c4b37dbb31300933756086896192f</sys_id>
+        <sys_id>27b2a02edb8423401461dd3b5e96192d</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Renewal Begin Date</sys_name>
+        <sys_name>LTG Renewal Begin Date</sys_name>
         <sys_package display_value="LTG Contracts" source="x_latg_ltg_contrac">244a7805db7b17001461dd3b5e9619e3</sys_package>
         <sys_policy/>
         <sys_scope display_value="LTG Contracts">244a7805db7b17001461dd3b5e9619e3</sys_scope>
         <sys_update_name>sys_dictionary_x_latg_ltg_contrac_ltg_contracts_table_renewal_begin_date</sys_update_name>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2018-08-15 14:49:12</sys_updated_on>
+        <sys_updated_on>2018-08-23 15:32:52</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

@@ -25,6 +25,44 @@
             <element>throughput</element>
             <hint/>
             <inactive>false</inactive>
+            <label>Container</label>
+            <language>en</language>
+            <name>x_latg_ltg_contrac_ltg_contracts_table</name>
+            <sequence/>
+            <sys_created_by>scrocker</sys_created_by>
+            <sys_created_on>2018-08-23 13:41:45</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3c3944e2db4423401461dd3b5e961985</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>scrocker</sys_updated_by>
+            <sys_updated_on>2018-08-23 13:41:45</sys_updated_on>
+            <value>container</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>throughput</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Multiple Bushel</label>
+            <language>en</language>
+            <name>x_latg_ltg_contrac_ltg_contracts_table</name>
+            <sequence/>
+            <sys_created_by>scrocker</sys_created_by>
+            <sys_created_on>2018-08-23 13:43:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7199c426db4423401461dd3b5e96191d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>scrocker</sys_updated_by>
+            <sys_updated_on>2018-08-23 13:43:05</sys_updated_on>
+            <value>multiple bushel</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>throughput</element>
+            <hint/>
+            <inactive>false</inactive>
             <label>Ton</label>
             <language>en</language>
             <name>x_latg_ltg_contrac_ltg_contracts_table</name>
@@ -45,7 +83,7 @@
             <sys_class_name>sys_choice_set</sys_class_name>
             <sys_created_by>scrocker</sys_created_by>
             <sys_created_on>2018-08-13 13:04:36</sys_created_on>
-            <sys_id>501c0f37dbb313009337560868961987</sys_id>
+            <sys_id>8ec2642edb8423401461dd3b5e961983</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>throughput</sys_name>
             <sys_package display_value="LTG Contracts" source="x_latg_ltg_contrac">244a7805db7b17001461dd3b5e9619e3</sys_package>

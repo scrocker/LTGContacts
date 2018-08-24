@@ -6,6 +6,82 @@
             <element>payment_schedule</element>
             <hint/>
             <inactive>false</inactive>
+            <label>Within 10 days of invoice</label>
+            <language>en</language>
+            <name>x_latg_ltg_contrac_ltg_contracts_table</name>
+            <sequence/>
+            <sys_created_by>scrocker</sys_created_by>
+            <sys_created_on>2018-08-23 13:47:03</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d67a4466db4423401461dd3b5e96192a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>scrocker</sys_updated_by>
+            <sys_updated_on>2018-08-23 13:47:03</sys_updated_on>
+            <value>within 10 days of invoice</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>payment_schedule</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Within 15 days of invoice</label>
+            <language>en</language>
+            <name>x_latg_ltg_contrac_ltg_contracts_table</name>
+            <sequence/>
+            <sys_created_by>scrocker</sys_created_by>
+            <sys_created_on>2018-08-23 13:47:16</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>da9a4466db4423401461dd3b5e9619db</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>scrocker</sys_updated_by>
+            <sys_updated_on>2018-08-23 13:47:16</sys_updated_on>
+            <value>within 15 days of invoice</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>payment_schedule</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Within 30 days of invoice</label>
+            <language>en</language>
+            <name>x_latg_ltg_contrac_ltg_contracts_table</name>
+            <sequence/>
+            <sys_created_by>scrocker</sys_created_by>
+            <sys_created_on>2018-08-23 13:47:29</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2daa0066db4423401461dd3b5e96194a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>scrocker</sys_updated_by>
+            <sys_updated_on>2018-08-23 13:47:29</sys_updated_on>
+            <value>within 30 days of invoice</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>payment_schedule</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Within 45 days of invoice</label>
+            <language>en</language>
+            <name>x_latg_ltg_contrac_ltg_contracts_table</name>
+            <sequence/>
+            <sys_created_by>scrocker</sys_created_by>
+            <sys_created_on>2018-08-23 13:47:41</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e4ba4066db4423401461dd3b5e961973</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>scrocker</sys_updated_by>
+            <sys_updated_on>2018-08-23 13:47:41</sys_updated_on>
+            <value>within 45days of invoice</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>payment_schedule</element>
+            <hint/>
+            <inactive>false</inactive>
             <label>Daily</label>
             <language>en</language>
             <name>x_latg_ltg_contrac_ltg_contracts_table</name>
@@ -159,7 +235,7 @@
             <sys_class_name>sys_choice_set</sys_class_name>
             <sys_created_by>scrocker</sys_created_by>
             <sys_created_on>2018-08-06 15:39:09</sys_created_on>
-            <sys_id>8c1c0f37dbb313009337560868961903</sys_id>
+            <sys_id>79c2642edb8423401461dd3b5e96190d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>payment_schedule</sys_name>
             <sys_package display_value="LTG Contracts" source="x_latg_ltg_contrac">244a7805db7b17001461dd3b5e9619e3</sys_package>

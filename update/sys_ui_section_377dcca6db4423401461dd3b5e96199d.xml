@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_section caption="Notes" section_id="377dcca6db4423401461dd3b5e96199d" sys_domain="global" table="x_latg_ltg_contrac_ltg_contracts_table" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>notes</element>
+            <position>0</position>
+            <sys_created_by>scrocker</sys_created_by>
+            <sys_created_on>2018-08-23 14:00:03</sys_created_on>
+            <sys_id>e18d0c6adb4423401461dd3b5e961941</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Notes" display_value="Notes" name="x_latg_ltg_contrac_ltg_contracts_table" sys_domain="global" view="Default view">377dcca6db4423401461dd3b5e96199d</sys_ui_section>
+            <sys_updated_by>scrocker</sys_updated_by>
+            <sys_updated_on>2018-08-23 14:00:03</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Notes</caption>
+            <header>false</header>
+            <name>x_latg_ltg_contrac_ltg_contracts_table</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>scrocker</sys_created_by>
+            <sys_created_on>2018-08-23 13:59:56</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>377dcca6db4423401461dd3b5e96199d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Notes</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="LTG Contracts" source="x_latg_ltg_contrac">244a7805db7b17001461dd3b5e9619e3</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="LTG Contracts">244a7805db7b17001461dd3b5e9619e3</sys_scope>
+            <sys_update_name>sys_ui_section_377dcca6db4423401461dd3b5e96199d</sys_update_name>
+            <sys_updated_by>scrocker</sys_updated_by>
+            <sys_updated_on>2018-08-23 13:59:56</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

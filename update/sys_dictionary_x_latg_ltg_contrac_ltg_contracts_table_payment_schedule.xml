@@ -54,7 +54,7 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>scrocker</sys_created_by>
         <sys_created_on>2018-08-06 15:38:54</sys_created_on>
-        <sys_id>860c4b37dbb31300933756086896192c</sys_id>
+        <sys_id>e7b2a02edb8423401461dd3b5e96192a</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Payment schedule</sys_name>
         <sys_package display_value="LTG Contracts" source="x_latg_ltg_contrac">244a7805db7b17001461dd3b5e9619e3</sys_package>
@@ -62,7 +62,7 @@
         <sys_scope display_value="LTG Contracts">244a7805db7b17001461dd3b5e9619e3</sys_scope>
         <sys_update_name>sys_dictionary_x_latg_ltg_contrac_ltg_contracts_table_payment_schedule</sys_update_name>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2018-08-15 14:49:11</sys_updated_on>
+        <sys_updated_on>2018-08-23 15:32:51</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
